@@ -1,0 +1,22 @@
+{
+  "name": "israeldominguez/consumer-reward-example",
+  "description": "Basic sample for Consumer Rewards API",
+  "require": {
+    "vlucas/phpdotenv": "2.2.0",
+    "israeldominguez/sdk-consumer-rewards": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../sdk-consumer-rewards",
+      "options": {
+        "symlink": true
+      }
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ConsumerRewards\\SDK\\": "src"
+    }
+  }
+}
